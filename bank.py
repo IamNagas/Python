@@ -1,10 +1,10 @@
 class Bank:
-    min_Bal=500
+    min_Bal=500    #static variable
     def __init__(self,name):
-        self.name=name
+        self.name=name  # instance variable
 #          print("constructor excuting automaticlly")
          def deposit(self,amount):
-             self.amount= amount
+             self.amount= amount   # instance variable
              Bank.BranchName= "bangalore"
 c1=Bank("rahul")
 c2=Bank("priyanka")
